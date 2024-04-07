@@ -90,6 +90,38 @@ body {
 
 /* ============== /MOBILE HEADER ============== */
 
+/* ============== MOBILE HERO ============== */
+
+.container-hero {
+    max-width: 360px;
+    padding: 48px 20px;
+}
+
+.form-hero {
+    padding-bottom: 16px;
+}
+
+.main-title {
+     font-weight: 700;
+     font-size: 32px;
+     color: #fff;
+}
+
+.where-is {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.description-hero {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+
+/* ============== /MOBILE HERO ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
