@@ -94,17 +94,18 @@ body {
 
 .container-hero {
     max-width: 360px;
-    padding: 48px 20px;
+    border-bottom: 1px solid #8491a0;
 }
 
 .form-hero {
-    padding-bottom: 16px;
+    padding: 48px 20px;
 }
 
 .main-title {
      font-weight: 700;
      font-size: 32px;
      color: #fff;
+     margin-bottom: 16px;
 }
 
 .where-is {
@@ -118,9 +119,68 @@ body {
     color: #fff;
 }
 
-
-
 /* ============== /MOBILE HERO ============== */
+
+/* ============== MOBILE EXPERIENC ============== */
+
+.container-experienc {
+    padding: 48px 20px;
+}
+
+.experienc-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #8491a0;
+    padding-bottom: 8px;
+}
+
+.experienc-work {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.experienc-item {
+    padding-bottom: 40px;
+}
+
+.experienc-number {
+    font-weight: 400;
+    font-size: 117px;
+    color: #8491a0;
+}
+
+.item-experienc-name {
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.item-experienc-description {
+        font-weight: 400;
+        font-size: 16px; 
+        line-height: 1.5;
+        color: #8491a0;
+}
+
+.green {
+    color: #3cc74e;
+}
+
+.blue {
+    color: #609bff;
+}
+
+.red {
+    color: #e95d90;
+}
+
+/* ============== /MOBILE EXPERIENC ============== */
 
 @media screen and (min-width: 768px) {
 
@@ -169,6 +229,32 @@ body {
 
 /* ============== /TABLET HEADER ============== */
 
+/* ============== TABLET HERO ============== */
+
+.container-hero {
+    max-width: 728px;
+   display: flex;
+   align-items: center;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.form-hero {
+    padding: 0;
+    margin-left: -65px;
+    max-width: 400px;
+    height: 475px;
+}
+
+.main-title {
+    font-size: 56px;
+    margin-bottom: 32px;
+   line-height: normal;
+}
+
+
+/* ============== /TABLET HERO ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -188,6 +274,22 @@ body {
 }
 
 /* ============== /DESKTOP HEADER ============== */
+
+/* ============== DESKTOP HERO ============== */
+
+.container-hero {
+    max-width: 1400px;
+}
+
+.form-hero {
+    max-width: 738px;
+}
+
+.main-title {
+    font-size: 78px;
+}
+
+/* ============== /DESKTOP HERO ============== */
     
 }
 

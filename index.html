@@ -66,47 +66,91 @@
 
     <main>
       <section class="hero">
-        <picture class="hero-photo">
-          <source
-            srcset="
-              ./images/hero/photo-desk.jpg    1x,
-              ./images/hero/photo-desk@2x.jpg 2x
-            "
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="
-              ./images/hero/photo-tab.jpg    1x,
-              ./images/hero/photo-tab@2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              ./images/hero/photo-mob.jpg    1x,
-              ./images/hero/photo-mob@2x.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            src="./images/hero/photo-mob.jpg"
-            alt="photo robin"
-            class="about-photo"
-          />
-        </picture>
         <div class="container-hero">
+          <picture class="hero-photo">
+            <source
+              srcset="
+                ./images/hero/photo-desk.jpg    1x,
+                ./images/hero/photo-desk@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./images/hero/photo-tab.jpg    1x,
+                ./images/hero/photo-tab@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/hero/photo-mob.jpg    1x,
+                ./images/hero/photo-mob@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/hero/photo-mob.jpg"
+              alt="photo robin"
+              class="about-photo"
+            />
+          </picture>
+
           <div class="form-hero">
-          <h1 class="main-title">
-            I’m Robin Williams. A Product Designer
-            <span class="where-is">based in Italy.</span>
+            <h1 class="main-title">
+              I’m Robin Williams. A Product Designer
+              <span class="where-is">based in Italy.</span>
             </h1>
-          </div>
+
             <p class="description-hero">
               I’m probably the most passionate designer you will ever get to
               work with. If you have a great project that needs some amazing
               skills, I’m your guy.
             </p>
-          </h1>
+          </div>
+        </div>
+      </section>
+
+      <!------ /Hero ------>
+
+      <section class="experienc-page">
+        <div class="container-experienc container">
+          <h2 class="experienc-title">work experience</h2>
+          <h3 class="experienc-work">
+            Companies I have worked for in the past
+          </h3>
+          <ul class="experienc-list">
+            <li class="experienc-item">
+              <h4 class="experienc-number">01</h4>
+              <h5 class="item-experienc-name">
+                <span class="green">Google</span>, Interaction Designer
+              </h5>
+              <p class="item-experienc-description">
+                I currently am the lead designer on the interaction design team
+                for Google Play.
+              </p>
+            </li>
+            <li class="experienc-item">
+              <h4 class="experienc-number">02</h4>
+              <h5 class="item-experienc-name">
+                <span class="blue">Facebook</span>, Product Designer
+              </h5>
+              <p class="item-experienc-description">
+                I’ve worked on a wide variety of internal tools for facebook
+                over the past 6 years.
+              </p>
+            </li>
+            <li class="experienc-item">
+              <h4 class="experienc-number">03</h4>
+              <h5 class="item-experienc-name">
+                <span class="red">Dribbble</span>, Graphic Designer
+              </h5>
+              <p class="item-experienc-description">
+                I started my design career with Dribbble. I was incharge of
+                creating illustrations for the platform.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
