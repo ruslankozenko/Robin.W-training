@@ -34,6 +34,8 @@ button {
     text-decoration: none;
 }
 
+
+
 body {
     font-family: "Sen", sans-serif;
     second-family: "Bahnschrift", sans-serif;
@@ -54,8 +56,10 @@ body {
     overflow: hidden;
 }
 
+
+
 .container {
-    max-width: 360px;
+    max-width: 375px;
     padding: 0 16px;
     margin: auto;
 }
@@ -71,7 +75,7 @@ body {
 }
 
 .header-container {
-    max-width: 360px;
+    max-width: 375px;
     height: 72px;
     padding: 24px 20px;
     display: flex;
@@ -93,8 +97,17 @@ body {
 /* ============== MOBILE HERO ============== */
 
 .container-hero {
-    max-width: 360px;
-    border-bottom: 1px solid #8491a0;
+    max-width: 375px;     
+}
+
+.experienc-page::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #C4C4C4;
+    display: block;
+    position: relative;
+    left: 0;
 }
 
 .form-hero {
@@ -162,10 +175,10 @@ body {
 }
 
 .item-experienc-description {
-        font-weight: 400;
-        font-size: 16px; 
-        line-height: 1.5;
-        color: #8491a0;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #8491a0;
 }
 
 .green {
@@ -252,8 +265,38 @@ body {
    line-height: normal;
 }
 
-
 /* ============== /TABLET HERO ============== */
+
+/* ============== TABLET EXPERIENC ============== */
+
+.container-experienc {
+    padding: 80px 40px;
+}
+
+.experienc-work {
+    font-size: 55px;
+}
+
+.experienc-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.experienc-item {
+    max-width: 212px;
+    height: 393px;
+    padding: 0;
+}
+
+.item-experienc-name {
+    max-width: 197px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ============== /TABLET EXPERIENC ============== */
 
 }
 
@@ -290,6 +333,34 @@ body {
 }
 
 /* ============== /DESKTOP HERO ============== */
+
+/* ============== DESKTOP EXPERIENC ============== */
+
+
+
+.container-experienc {
+    padding: 120px 72px;
+}
+
+.experienc-work {
+    max-width: 690px;
+}
+
+.experienc-item {
+    max-width: 416px;
+    height: 247px;
+}
+
+.experienc-list {
+    column-gap: 24px;
+}
+
+.item-experienc-name {
+    display: block;
+    max-width: none;
+}
+
+/* ============== DESKTOP EXPERIENC ============== */
     
 }
 
