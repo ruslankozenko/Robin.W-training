@@ -19,6 +19,7 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 
@@ -60,7 +61,6 @@ body {
 
 .container {
     max-width: 375px;
-    padding: 0 16px;
     margin: auto;
 }
 
@@ -96,6 +96,10 @@ body {
 
 /* ============== MOBILE HERO ============== */
 
+.hero {
+    margin: auto;
+}
+
 .container-hero {
     max-width: 375px;     
 }
@@ -130,6 +134,11 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
+}
+
+.about-photo {
+    margin: auto;
+    object-fit: cover;
 }
 
 /* ============== /MOBILE HERO ============== */
@@ -195,6 +204,49 @@ body {
 
 /* ============== /MOBILE EXPERIENC ============== */
 
+/* ============== MOBILE VALUE ============== */
+
+.value-container {
+    background: #fff3e4;
+}
+
+.value-text {
+    padding: 48px 20px;
+    height: 450px;
+}
+
+.value-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #181823;
+    padding-bottom: 24px;
+}
+
+.value-description {
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #5b6876;
+    padding-bottom: 81px;
+    max-width: 320px;
+}
+
+.value-sending {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #181823;
+    border-bottom: 1px solid #8491a0;
+    width: 116px;
+    height: 0px;
+}
+
+.about-photo-value{
+    margin: auto;
+}
+
+/* ============== /MOBILE VALUE ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -245,7 +297,6 @@ body {
 /* ============== TABLET HERO ============== */
 
 .container-hero {
-    max-width: 728px;
    display: flex;
    align-items: center;
    margin-top: 80px;
@@ -298,6 +349,29 @@ body {
 
 /* ============== /TABLET EXPERIENC ============== */
 
+/* ============== TABLET VALUE ============== */
+
+.value-container {
+    display: flex;
+}
+
+.value-text {
+    padding: 80px 40px;
+    height: 600px;
+    max-width: 384px;
+}
+
+.value-title {
+    font-size: 55px;
+    max-width: 304px;
+}
+
+.value-description {
+    padding-bottom: 67px;
+}
+
+/* ============== /TABLET VALUE ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -322,6 +396,7 @@ body {
 
 .container-hero {
     max-width: 1400px;
+    margin-left: 0;
 }
 
 .form-hero {
@@ -360,7 +435,25 @@ body {
     max-width: none;
 }
 
-/* ============== DESKTOP EXPERIENC ============== */
+/* ============== /DESKTOP EXPERIENC ============== */
+
+/* ============== DESKTOP VALUE ============== */
+
+.value-text {
+    padding: 120px 72px;
+    max-width: 720px;
+}
+
+.value-title {
+    max-width: 529px;
+}
+
+.value-description {
+    max-width: 576px;
+    padding-bottom: 134px;
+}
+
+/* ============== /DESKTOP VALUE ============== */
     
 }
 
