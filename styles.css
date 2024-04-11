@@ -430,6 +430,41 @@ body {
 
 /* ============== /TABLET VALUE ============== */
 
+/* ============== TABLET SKILLSET ============== */
+
+.skillset-page {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.skillset-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.skillset-text {
+    margin-bottom: 48px;
+}
+
+.skillset-title {
+    font-size: 55px;
+    padding-bottom: 24px;
+}
+
+.skillset-list {
+    gap: 48px 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skillset-list-item {
+   max-width: 332px;
+}
+
+
+
+/* ============== /TABLET SKILLSET ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
