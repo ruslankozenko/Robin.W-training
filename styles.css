@@ -327,6 +327,66 @@ body {
 
 /* ============== /MOBILE SWIPE ============== */
 
+/* ============== MOBILE PROJECTS ============== */
+
+.work-btn {
+    display: none;
+}
+
+.projects {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.projects-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 16px; 
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #8491a0;
+    padding-bottom: 8px;
+}
+
+.projects-title-description {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.work-text {
+    padding: 40px 32px;
+    background: #181823;
+}
+
+.work-text-title {
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 13px;
+}
+
+.work-text-description {
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+/* ============== /MOBILE PROJECTS ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -493,6 +553,24 @@ body {
 
 /* ============== /TABLET SWIPE ============== */
 
+/* ============== TABLET PROJECTS ============== */
+
+.projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.projects-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.projects-title-description {
+    font-size: 55px;
+}
+
+/* ============== /TABLET PROJECTS ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -607,6 +685,42 @@ body {
 }
 
 /* ============== /DESKTOP SWIPE ============== */
+
+/* ============== DESKTOP PROJECTS ============== */
+
+.projects {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.projects-container {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.projects-title-description {
+    max-width: 572px;
+}
+
+.work-text {
+    max-width: 636px;
+}
+
+.projects-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px 24px;
+}
+
+.projects-item-wrapper {
+    margin-top: -244px;
+}
+
+.work-btn {
+    display: block;
+}
+
+/* ============== /DESKTOP PROJECTS ============== */
     
 }
 
