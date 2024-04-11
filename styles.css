@@ -461,8 +461,6 @@ body {
    max-width: 332px;
 }
 
-
-
 /* ============== /TABLET SKILLSET ============== */
 
 }
@@ -547,6 +545,30 @@ body {
 }
 
 /* ============== /DESKTOP VALUE ============== */
+
+/* ============== DESKTOP SKILLSET ============== */
+
+.skillset-page {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.skillset-container {
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    gap: 24px;
+}
+
+.skillset-text {
+    max-width: 416px;
+}
+
+.skillset-list-item {
+    max-width: 416px;
+}
+
+/* ============== /DESKTOP SKILLSET ============== */
     
 }
 
