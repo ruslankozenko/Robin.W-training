@@ -247,6 +247,64 @@ body {
 
 /* ============== /MOBILE VALUE ============== */
 
+/* ============== MOBILE SKILLSET ============== */
+
+.skillset-page {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.skillset-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skillset-text {
+    margin-bottom: 69px;
+}
+
+.skillset-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.skillset-description {
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+.item-title-skillset {
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.item-description-skillset {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+.skillset-icon {
+    fill: #5221e6;
+}
+
+.skillset-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+/* ============== /MOBILE SKILLSET ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
