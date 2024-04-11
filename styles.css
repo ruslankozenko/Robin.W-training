@@ -305,6 +305,28 @@ body {
 
 /* ============== /MOBILE SKILLSET ============== */
 
+/* ============== MOBILE SWIPE ============== */
+
+.swiper-icon {
+    fill: #8491a0;
+}
+
+.swiper-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swiper-item {
+    width: 180px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #181823;
+}
+
+/* ============== /MOBILE SWIPE ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -463,6 +485,14 @@ body {
 
 /* ============== /TABLET SKILLSET ============== */
 
+/* ============== TABLET SWIPE ============== */
+
+.swiper-item {
+    width: 384px;
+}
+
+/* ============== /TABLET SWIPE ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -569,6 +599,14 @@ body {
 }
 
 /* ============== /DESKTOP SKILLSET ============== */
+
+/* ============== DESKTOP SWIPE ============== */
+
+.swiper-item {
+    width: 240px;
+}
+
+/* ============== /DESKTOP SWIPE ============== */
     
 }
 
