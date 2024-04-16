@@ -60,7 +60,7 @@ body {
 
 
 .container {
-    max-width: 375px;
+    max-width: 360px;
     margin: auto;
 }
 
@@ -329,10 +329,6 @@ body {
 
 /* ============== MOBILE PROJECTS ============== */
 
-.work-btn {
-    display: none;
-}
-
 .projects {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -385,7 +381,71 @@ body {
     color: #8491a0;
 }
 
+.work-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 61px;
+}
+
+.projects-btn {
+    border: 1px solid #5221e6;
+    padding: 24px 32px;
+    width: 247px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+    background-color: #5221e6;
+    border: 1px solid #fff;
+}
+
+.projects-worksheet {
+    margin: auto;
+}
+
 /* ============== /MOBILE PROJECTS ============== */
+
+/* ============== MOBILE INSTAGRAM ============== */
+
+.instagram-section {
+    background: #fbe4ff;
+}
+
+.instagram-text {
+    padding: 48px 20px;
+}
+
+.instagram-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #181823;
+    padding-bottom: 16px;
+}
+
+.instagram-description {
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #5b6876;
+    padding-bottom: 126px;
+}
+
+.instagram-sending {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #181823;
+    border-bottom: 1px solid #8491a0;
+}
+
+/* ============== /MOBILE INSTAGRAM ============== */
 
 @media screen and (min-width: 768px) {
 
@@ -571,6 +631,30 @@ body {
 
 /* ============== /TABLET PROJECTS ============== */
 
+/* ============== TABLET INSTAGRAM ============== */
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instagram-text {
+    padding: 80px 40px;
+}
+
+.instagram-title {
+    font-size: 55px;
+    padding-bottom: 24px;
+}
+
+.instagram-description {
+    max-width: 304px;
+    padding-bottom: 133px;
+}
+
+/* ============== /TABLET INSTAGRAM ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -717,32 +801,22 @@ body {
 }
 
 .work-btn {
-    display: flex;
-    justify-content: space-evenly;
     margin-top: 91px;
 }
 
-.projects-btn {
-    border: 1px solid #5221e6;
-    padding: 24px 32px;
-    width: 247px;
-    height: 75px;
-    font-weight: 700;
-    font-size: 18px; 
-    line-height: 1.5;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #000;
-}
-
-.projects-btn:hover,
-.projects-btn:focus {
-    background-color: #5221e6;
-    border: 1px solid #fff;
-}
-   
-
 /* ============== /DESKTOP PROJECTS ============== */
+
+/* ============== DESKTOP INSTAGRAM ============== */
+
+.instagram-text {
+    padding: 120px 72px;
+}
+
+.instagram-description {
+    max-width: 576px;
+}
+
+/* ============== /DESKTOP INSTAGRAM ============== */
     
 }
 
