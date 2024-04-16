@@ -447,6 +447,51 @@ body {
 
 /* ============== /MOBILE INSTAGRAM ============== */
 
+/* ============== MOBILE DRIBBBLE ============== */
+
+.dribbble-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.dribbble-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dribbble-text {
+    margin-bottom: 64px;
+}
+
+.dribbble-title {
+    font-weight: 700;
+    font-size: 55px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.dribbble-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8491a0;
+    padding-bottom: 40px;
+}
+
+.dribbble-sending {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    border-bottom: 1px solid #8491a0;
+}
+
+.photo-dribbble {
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* ============== /MOBILE DRIBBBLE ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -655,6 +700,24 @@ body {
 
 /* ============== /TABLET INSTAGRAM ============== */
 
+/* ============== TABLET DRIBBBLE ============== */
+
+.dribbble-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.dribbble-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dribbble-text {
+    margin-bottom: 120px;
+}
+
+/* ============== /TABLET DRIBBBLE ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -817,6 +880,20 @@ body {
 }
 
 /* ============== /DESKTOP INSTAGRAM ============== */
+
+/* ============== DESKTOP DRIBBBLE ============== */
+
+.dribbble-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.dribbble-container {
+    padding-left: 182px;
+    padding-right: 182px;
+}
+
+/* ============== /DESKTOP DRIBBBLE ============== */
     
 }
 
