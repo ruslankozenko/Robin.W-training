@@ -492,6 +492,82 @@ body {
 
 /* ============== /MOBILE DRIBBBLE ============== */
 
+/* ============== MOBILE REVIEWS ============== */
+
+.reviews-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.reviews-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reviews-text {
+    margin-bottom: 64px;
+}
+
+.reviews-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.reviews-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8491a0;
+    padding-bottom: 40px;
+}
+
+.reviews-sending {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    border-bottom: 1px solid #8491a0;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.quote {
+    margin: auto;
+    padding: 32px;
+    border: 1px solid #5b6876;
+}
+
+.quote-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+    margin: auto;
+    padding-bottom: 64px;
+}
+
+.review-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+.review-location {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+/* ============== /MOBILE REVIEWS ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -718,6 +794,37 @@ body {
 
 /* ============== /TABLET DRIBBBLE ============== */
 
+/* ============== TABLET REVIEWS ============== */
+
+.reviews-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.reviews-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 23px;
+}
+
+.reviews-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.reviews-title {
+    font-size: 55px;
+    padding-bottom: 24px;
+}
+
+.quote {
+    width: 332px;
+}
+
+/* ============== /TABLET REVIEWS ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -894,6 +1001,42 @@ body {
 }
 
 /* ============== /DESKTOP DRIBBBLE ============== */
+
+/* ============== DESKTOP REVIEWS ============== */
+
+.reviews-section {
+    padding-top: 120px;
+    padding-bottom: 88px;
+}
+
+.reviews-container {
+    padding-left: 72px;
+    padding-right: 72px;
+    gap: 24px;
+}
+
+.reviews-list {
+    gap: 120px;
+}
+
+.quote {
+    padding: 64px;
+    width: 636px;
+}
+
+.reviews-title {
+    max-width: 588px;
+}
+
+.reviews-description {
+    max-width: 588px;
+}
+
+.reviews-text {
+    width: 636px;
+}
+
+/* ============== /DESKTOP REVIEWS ============== */
     
 }
 
