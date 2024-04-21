@@ -568,6 +568,70 @@ body {
 
 /* ============== /MOBILE REVIEWS ============== */
 
+/* ============== /MOBILE PHOTOGRAPHY ============== */
+
+.photography-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.photography-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.photography-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.photography-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8491a0;
+    padding-bottom: 40px;
+}
+
+.photography-buttons {
+    margin-bottom: 40px;
+}
+
+.photography-buttons-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.photography-btn {
+    border: 1px solid #5221e6;
+    padding: 12px 16px;
+    width: 148px;
+    height: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+}
+
+.photography-btn:hover,
+.photography-btn:focus {
+    background-color: #5221e6;
+}
+
+.photography-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ============== /MOBILE PHOTOGRAPHY ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
@@ -825,6 +889,33 @@ body {
 
 /* ============== /TABLET REVIEWS ============== */
 
+/* ============== TABLET PHOTOGRAPHY ============== */
+
+.photography-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.photography-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.photography-title {
+    font-size: 55px;
+}
+
+.photography-buttons-list {
+    justify-content: space-between;
+}
+
+.photography-block {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* ============== /TABLET PHOTOGRAPHY ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -1037,6 +1128,28 @@ body {
 }
 
 /* ============== /DESKTOP REVIEWS ============== */
+
+/* ============== DESKTOP PHOTOGRAPHY ============== */
+
+.photography-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.photography-container {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.photography-description {
+    padding-bottom: 64px;
+    max-width: 588px;
+}
+
+.photography-buttons-list {
+    justify-content: flex-start;
+}
+/* ============== /DESKTOP PHOTOGRAPHY ============== */
     
 }
 
