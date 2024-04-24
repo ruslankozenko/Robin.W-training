@@ -652,36 +652,66 @@ body {
 }
 
 .contact-form-employers {
-    
-}
-
-.contact-label {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #fff;
-    padding-bottom: 8px;
-}
-
-.contact-input {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.contact-input-employers {
-    width: 320px;
+.contact-form-employers label {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.contact-form-employers input {
+    width: 100%;
     height: 50px;
     background: #181823;
     border: #000;
+    margin-top: 8px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
 }
 
-. {
-    width: 320px;
-    height: 100px;
+.contact-form-employers textarea {
+    width: 100%;
+    height: 132px;
     background: #181823;
     border: #000;
+    margin-top: 8px;
+    padding: 10px 20px;
+    resize: none;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #fff;
 }
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    padding: 24px 32px;
+    width: 320px;
+    height: 75px;
+    background: #5221e6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #fff;
+    border: #5221e6;
+}
+
+
+
+
 
 /* ============== /MOBILE CONTACT ============== */
 

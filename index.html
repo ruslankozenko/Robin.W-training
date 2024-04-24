@@ -883,10 +883,11 @@
           <form
             class="contact-form-employers"
             name="contact-form"
+            method="post"
             autocomplete="off"
           >
-            <label class="contact-label" for="name">Name</label>
             <div class="contact-input">
+              <label for="name">Name</label>
               <input
                 class="contact-input-employers"
                 type="text"
@@ -897,8 +898,9 @@
                 required
               />
             </div>
-            <label class="contact-label" for="email">Email</label>
+
             <div class="contact-input">
+              <label for="email">Email</label>
               <input
                 class="contact-input-employers"
                 type="email"
@@ -908,8 +910,9 @@
                 required
               />
             </div>
-            <label class="contact-label" for="message">Message</label>
+
             <div class="contact-input">
+              <label for="message">Message</label>
               <textarea name="message" id="message" required></textarea>
             </div>
             <div class="contact-btn">
