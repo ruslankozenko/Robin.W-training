@@ -66,7 +66,7 @@
     <!------ Hero ------>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="container-hero container">
           <picture class="hero-photo">
             <source
@@ -116,7 +116,7 @@
 
       <!------ Experienc ------>
 
-      <section class="experienc-page">
+      <section class="experienc-page section" id="experienc">
         <div class="container-experienc container">
           <h2 class="experienc-title">work experience</h2>
           <h3 class="experienc-work">
@@ -161,7 +161,7 @@
 
       <!------ Value ------>
 
-      <section class="value-page">
+      <section class="value-page" id="value">
         <div class="value-container container">
           <div class="value-text">
             <h3 class="value-title">Philosophy & values</h3>
@@ -208,7 +208,7 @@
 
       <!------ Skillset ------>
 
-      <section class="skillset-page">
+      <section class="skillset-page" id="skillset">
         <div class="skillset-container container">
           <div class="skillset-text">
             <h3 class="skillset-title">Skillset</h3>
@@ -276,7 +276,7 @@
 
       <!------ Swipe ------>
 
-      <section class="swipe">
+      <section class="swipe" id="swipe">
         <h2 class="visually-hidden">Swiper and swiping</h2>
         <div class="swiper-container container">
           <ul class="swiper-list">
@@ -318,7 +318,7 @@
 
       <!------ Projects ------>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects-container container">
           <h2 class="projects-title">MY PROJECTS</h2>
           <h3 class="projects-title-description">
@@ -492,7 +492,7 @@
 
       <!------ Instagram ------>
 
-      <section class="instagram-section">
+      <section class="instagram-section" id="instagram">
         <div class="instagram-container container">
           <div class="instagram-text">
             <h3 class="instagram-title">Instagram</h3>
@@ -539,7 +539,7 @@
 
       <!------ Dribbble ------>
 
-      <section class="dribbble-section">
+      <section class="dribbble-section" id="dribbble">
         <div class="dribbble-container container">
           <div class="dribbble-text">
             <h3 class="dribbble-title">Dribbble</h3>
@@ -584,7 +584,7 @@
 
       <!------ Reviews ------>
 
-      <section class="reviews-section">
+      <section class="reviews-section section" id="reviews">
         <div class="reviews-container container">
           <div class="reviews-text">
             <h3 class="reviews-title">This is what people say about me</h3>
@@ -725,7 +725,7 @@
 
       <!------ Photography ------>
 
-      <section class="photography-section">
+      <section class="photography-section section" id="photography">
         <div class="photography-container container">
           <div class="photography-text">
             <h3 class="photography-title">Photography</h3>
@@ -871,7 +871,7 @@
 
       <!------ Contact ------>
 
-      <section class="contact-section">
+      <section class="contact-section section" id="contact">
         <div class="contact-container container">
           <div class="contact-text">
             <h3 class="contact-subtitle">Let’s get started</h3>
@@ -885,34 +885,31 @@
             name="contact-form"
             autocomplete="off"
           >
+            <label class="contact-label" for="name">Name</label>
             <div class="contact-input">
-              <label for="name">Name</label>
               <input
                 class="contact-input-employers"
                 type="text"
                 id="uzer-name"
                 name="uzer-name"
-                pattern=""
-                title=""
-                placeholder=""
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                title="Kozenko Ruslan"
                 required
               />
             </div>
+            <label class="contact-label" for="email">Email</label>
             <div class="contact-input">
-              <label for="email">Email</label>
               <input
                 class="contact-input-employers"
                 type="email"
                 id="uzer-email"
                 name="uzer-email"
-                pattern=""
-                title=""
-                placeholder=""
+                title="kozenko@gmail.com"
                 required
               />
             </div>
+            <label class="contact-label" for="message">Message</label>
             <div class="contact-input">
-              <label for="message">Message</label>
               <textarea name="message" id="message" required></textarea>
             </div>
             <div class="contact-btn">

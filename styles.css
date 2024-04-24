@@ -57,7 +57,10 @@ body {
     overflow: hidden;
 }
 
-
+.section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
 .container {
     max-width: 360px;
@@ -146,7 +149,8 @@ body {
 /* ============== MOBILE EXPERIENC ============== */
 
 .container-experienc {
-    padding: 48px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .experienc-title {
@@ -494,11 +498,6 @@ body {
 
 /* ============== MOBILE REVIEWS ============== */
 
-.reviews-section {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
 .reviews-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -568,12 +567,7 @@ body {
 
 /* ============== /MOBILE REVIEWS ============== */
 
-/* ============== /MOBILE PHOTOGRAPHY ============== */
-
-.photography-section {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
+/* ============== MOBILE PHOTOGRAPHY ============== */
 
 .photography-container {
     padding-left: 20px;
@@ -631,6 +625,65 @@ body {
 }
 
 /* ============== /MOBILE PHOTOGRAPHY ============== */
+
+/* ============== MOBILE CONTACT ============== */
+
+.contact-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+.contact-text {
+    margin-bottom: 48px;
+}
+
+.contact-form-employers {
+    
+}
+
+.contact-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-input-employers {
+    width: 320px;
+    height: 50px;
+    background: #181823;
+    border: #000;
+}
+
+. {
+    width: 320px;
+    height: 100px;
+    background: #181823;
+    border: #000;
+}
+
+/* ============== /MOBILE CONTACT ============== */
 
 @media screen and (min-width: 768px) {
 
