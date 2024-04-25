@@ -709,10 +709,6 @@ body {
     border: #5221e6;
 }
 
-
-
-
-
 /* ============== /MOBILE CONTACT ============== */
 
 @media screen and (min-width: 768px) {
@@ -999,6 +995,27 @@ body {
 
 /* ============== /TABLET PHOTOGRAPHY ============== */
 
+/* ============== TABLET CONTACT ============== */
+
+.contact-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.contact-subtitle {
+    font-size: 55px;
+    padding-bottom: 24px;
+}
+
+/* ============== /TABLET CONTACT ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -1233,6 +1250,32 @@ body {
     justify-content: flex-start;
 }
 /* ============== /DESKTOP PHOTOGRAPHY ============== */
+
+/* ============== DESKTOP CONTACT ============== */
+
+.contact-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-container {
+    padding-left: 182px;
+    padding-right: 182px;
+}
+
+.contact-description {
+    width: 526px;
+}
+
+.contact-form-employers {
+    width: 526px;
+}
+
+.contact-button {
+    width: 100%;
+}
+
+/* ============== /DESKTOP CONTACT ============== */
     
 }
 
