@@ -760,6 +760,11 @@ body {
     color: #fff;
 }
 
+.footer-menu-item-sending:hover,
+.footer-menu-item-sending:focus {
+    background-color: #5221e6;
+}
+
 .footer-menu {
     margin-bottom: 48px;
 }
@@ -1078,6 +1083,35 @@ body {
 
 /* ============== /TABLET CONTACT ============== */
 
+/* ============== TABLET FOOTER ============== */
+
+.footer-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-extra {
+    width: 329px;
+
+}
+
+/* ============== /TABLET FOOTER ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -1338,6 +1372,19 @@ body {
 }
 
 /* ============== /DESKTOP CONTACT ============== */
+
+/* ============== DESKTOP FOOTER ============== */
+
+.footer-container {
+    padding-left: 72px;
+    padding-right: 182px;
+}
+
+.footer-extra {
+    width: 436px;
+}
+
+/* ============== /DESKTOP FOOTER ============== */
     
 }
 
