@@ -711,6 +711,68 @@ body {
 
 /* ============== /MOBILE CONTACT ============== */
 
+/* ============== MOBILE FOOTER ============== */
+
+.footer-section {
+    background: #181823;
+}
+
+.footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-icon {
+    margin-bottom: 34px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.socisl-list-icon {
+    fill: #26A7DE;
+}
+
+.icon-dribbble {
+    fill: #e94b88;
+}
+
+.footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.footer-menu-item {
+    display: flex;
+    align-items: center;
+    width: 154px;
+    height: 48px;
+}
+
+.footer-menu-item-sending {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer-menu {
+    margin-bottom: 48px;
+}
+
+.footer-copyright-sending {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #8491a0;
+}
+
+/* ============== /MOBILE FOOTER ============== */
+
 @media screen and (min-width: 768px) {
 
 /* ============== TABLET HEADER ============== */
